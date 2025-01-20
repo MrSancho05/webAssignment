@@ -1,280 +1,184 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-  <div class="container1">
-    <section id="boshMenu" class="container">
-      <nav class="navbar" id="navbar">
-        <div class="nav-left">
-          <h1 style="color: white;">WorkHub Central</h1>
-        </div>
-        <div class="nav-right">
-          <ul class="nav-style">
-            <li><a href="#boshMenu">Asosiy</a></li>
-            <li><a href="#xizmatlar">Afzaliklar</a></li>
-            <li><a href="#tariflar">Tariflar</a></li>
-            <li><a href="#fikrlar">Fikrlar</a></li>
-            <li><a href="#boglanish">Bog'lanish uchun</a></li>
+<html lang="uz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>WorkHub</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="container">
+          <div class="logo"><a href="index.html">WorkHub</a></div>
+          <div class="menu-icon" onclick="toggleMenu()">☰</div>
+          <ul class="nav-links">
+            <li><a href="#main">Bosh sahifa</a></li>
+            <li><a href="#services">Xizmatlar</a></li>
+            <li><a href="#membership">A'zolik</a></li>
+            <li><a href="#contact">Bog'lanish</a></li>
           </ul>
-        </div>
-        <div class="navbar-icon">
-          <img style="width: 50px;" src="images/menu1-removebg-preview.png" alt="">
+          <button class="cta-btn">Ro'yxatdan o'tish</button>
         </div>
       </nav>
-      <div class="block">
-        <div class="header-main">
-          <div class="header-card1">
-            <h3 class="fontS3">Ishlash. Innovatsiya. Ulanish. <br>
-              </h3>
-            <h1 class="fontS4" style="margin-top: 25px;">WorkHub Central: Samarali ish uchun mukammal joy.
-            </h1>
+      <section class="hero" id="main">
+        <div class="hero-content">
+          <h1 class="hero-title">WorkHub Central</h1>
+          <p class="hero-description">
+            Innovatsion va zamonaviy kovorking maydoniga xush kelibsiz! Biz
+            frilanserlar, startaplar va kichik bizneslar uchun ajoyib
+            sharoitlarni taqdim etamiz.
+          </p>
+          <a href="#xizmatlar" class="hero-btn">Xizmatlar bilan tanishing</a>
         </div>
-      </div>
-    </section>
-    <section id="xizmatlar">
-      <div class="block2">
-        <div class="block2-afzallik">
-          <h1 class="fontS1">Nega WorkHub Centralni tanlash kerak?</h1>
-        </div>
-        <div class="block2-cardlar">
-          <div class="card card1">
-            <div class="card1-rasm"><img src="images/map.png.png" alt="map"></div>
-            <div class="card1-matn">
-              <h4>Qulay joylashuv, "O'zgarish" metro bekati yonida</h4>
+      </section>
+    </header>
+
+    <main>
+      <!-- Xizmatlar bo'limi -->
+      <section class="services-section" id="services">
+        <div class="container2">
+          <h2 class="section-title">Bizning Xizmatlarimiz</h2>
+          <div class="services-cards">
+            <div class="service-card">
+              <div class="emoji">🧑‍💻</div>
+              <h3>Hot Desk</h3>
+              <p>
+                Jamoat joylarida vaqtinchalik foydalanish uchun ish stollari.
+              </p>
             </div>
-          </div>
-          <div class="card card1">
-            <div class="card1-rasm"><img src="images/wifi.png.png" alt="wifi"></div>
-            <div class="card1-matn">
-              <h4>Yuqori tezlikdagi internet</h4>
+            <div class="service-card">
+              <div class="emoji">🖥️</div>
+              <h3>Shaxsiy Ish Stoli</h3>
+              <p>Doimiy ish stoli va maxsus saqlash uchun shkaflar.</p>
             </div>
-          </div>
-          <div class="card card1">
-            <div class="card1-rasm"><img src="images/shelf.png.png" alt="shelf"></div>
-            <div class="card1-matn">
-              <h4>Shaxsiy shkaflar</h4>
+            <div class="service-card">
+              <div class="emoji">🗣️</div>
+              <h3>Meeting Xonasi</h3>
+              <p>Kichik va katta uchrashuvlar uchun zamonaviy xonalar.</p>
             </div>
-          </div>
-          <div class="card card1">
-            <div class="card1-rasm"><img src="images/mirror.png.png" alt="mirror"></div>
-            <div class="card1-matn">
-              <h4>ART Gallereya</h4>
-            </div>
-          </div>
-          <div class="card card1">
-            <div class="card1-rasm"><img src="images/blackboard.png" alt="blackboard"></div>
-            <div class="card1-matn">
-              <h4>Jihozlangan majlis xonalari</h4>
-            </div>
-          </div>
-          <div class="card card1">
-            <div class="card1-rasm"><img src="images/support.png.png" alt="support"></div>
-            <div class="card1-matn">
-              <h4>Zoom xonasi</h4>
-            </div>
-          </div>
-          <div class="card card1">
-            <div class="card1-rasm"><img src="images/coffee-machine.png.png" alt="coffee-machine"></div>
-            <div class="card1-matn">
-              <h4>Suv, choy, qahva</h4>
-            </div>
-          </div>
-          <div class="card card1">
-            <div class="card1-rasm"><img src="images/print.png.png" alt="printer"></div>
-            <div class="card1-matn">
-              <h4>Printer, skaner, bog'lash</h4>
-            </div>
-          </div>
-          <div class="card card1">
-            <div class="card1-rasm"><img src="images/furniture.png.png" alt="furnitwure"></div>
-            <div class="card1-matn">
-              <h4>Dush va hojatxonalar</h4>
-            </div>
-          </div>
-          <div class="card card1">
-            <div class="card1-rasm"><img src="images/parking-area.png.png" alt="parking-area"></div>
-            <div class="card1-matn">
-              <h4>Avtoturargoh mavjud</h4>
-            </div>
-          </div>
-          <div class="card card1">
-            <div class="card1-rasm"><img src="images/divan.png.png" alt="divan"></div>
-            <div class="card1-matn">
-              <h4>Dam olish zonasi</h4>
-            </div>
-          </div>
-          <div class="card card1">
-            <div class="card1-rasm"><img src="images/dinner-table.png.png" alt="dinner-table"></div>
-            <div class="card1-matn">
-              <h4>Oshxona</h4>
+            <div class="service-card">
+              <div class="emoji">🎥</div>
+              <h3>Konferensiya Zali</h3>
+              <p>
+                Videokonferensiyalar uchun to'liq jihozlangan konferensiya
+                xonalari.
+              </p>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    <section id="tariflar" class="block3">
-      <div class="">
-        <div class="block2-afzallik">
-          <h1 class="fontS1" style="margin-top: 55px;">Bizning Tarif Xizmatlarimiz</h1><br>
-        </div>
-        <div class="block2-prices">
-          <div class="price price1">
-            <div class="price1-rasm">
-              <img src="images/suites 3.png" alt="">
-            </div>
-            <div class="price1-matn">
-              <h2 class="fontS5">Kunlik a'zolik</h2>
-              <div class="p">
-                <p>✅ Bir kunlik hot desk</p>
-                <p>✅ Bepul qahva/choy va barcha qulayliklardan foydalanish.</p>
-                <p>✅ Yuqori Tezlikdagi WIFI</p>
+      </section>
+
+      <!-- Azolik bo'limi -->
+      <section class="membership-section" id="membership">
+        <div class="container2">
+          <h2 class="section-title">A'zolik Paketlarimiz</h2>
+          <div class="membership-cards">
+            <div class="membership-card">
+              <div class="card">
+                <div class="card-content">
+                  <div class="emoji">💼</div>
+                  <h3>Kunlik A'zolik</h3>
+                  <p>
+                    Birkunlik hot desk va barcha qulayliklardan foydalaning.
+                  </p>
+                  <div class="price">Narx: $10/kun</div>
+                  <a href="#" class="details-btn">Batafsil</a>
+                </div>
               </div>
             </div>
-            <div class="button">
-              <button class="btn">Batafsil</button>
-            </div>
-          </div>
-          <div class="price price1">
-            <div class="price1-rasm">
-              <img src="images/suites 3.png" alt="">
-            </div>
-            <div class="price1-matn">
-              <h2 class="fontS5">Moslashuvchan a'zolik</h2>
-              <div class="p">
-                <p>✅ Oyiga 10 kun hot desk dan foydalanish</p>
-                <p>✅ Meeting xonalarini bron qilish va seminarlar uchun chegirmalar.</p>
-                <p>✅ Yuqori Tezlikdagi WIFI</p>
+            <div class="membership-card">
+              <div class="card">
+                <div class="card-content">
+                  <div class="emoji">🔄</div>
+                  <h3>Moslashuvchan A'zolik</h3>
+                  <p>10 kunlik hot desk va seminarlar uchun chegirmalar.</p>
+                  <div class="price">Narx: $80/oy</div>
+                  <a href="#" class="details-btn">Batafsil</a>
+                </div>
               </div>
             </div>
-            <div class="button">
-              <button class="btn">Batafsil</button>
-            </div>
-          </div>
-          <div class="price price1">
-            <div class="price1-rasm">
-              <img src="images/suites 3.png" alt="">
-            </div>
-            <div class="price1-matn">
-              <h2 class="fontS5">Shaxsiy stol a'zolik</h2>
-              <div class="p">
-                <p>✅ Umumiy ish joyida doimiy ish stoli</p>
-                <p>✅ Shaxsiy saqlash uchun shkaf.</p>
-                <p>✅ Uchrashuv xonalari va tadbirlarga kirishda ustuvorlik.</p>
+            <div class="membership-card">
+              <div class="card">
+                <div class="card-content">
+                  <div class="emoji">📂</div>
+                  <h3>Shaxsiy Stol A'zoligi</h3>
+                  <p>Doimiy ish stoli va uchrashuv xonalarida ustuvorlik.</p>
+                  <div class="price">Narx: $150/oy</div>
+                  <a href="#" class="details-btn">Batafsil</a>
+                </div>
               </div>
             </div>
-            <div class="button">
-              <button class="btn">Batafsil</button>
-            </div>
-          </div>
-          <div class="price price1">
-            <div class="price1-rasm">
-              <img src="images/suites 3.png" alt="">
-            </div>
-            <div class="price1-matn">
-              <h2 class="fontS5">Shaxsiy ofisga a'zolik</h2>
-              <div class="p">
-                <p>✅ 2-10 kishilik shaxsiy ofis maydoni.</p>
-                <p>✅ Ofisdan to’liq, 24/7 rejimida foydalanish va meeting xonalaridan cheksiz foydalanish.</p>
-                <p>✅ Uchrashuv xonalari va tadbirlarga kirishda ustuvorlik.</p>
+            <div class="membership-card">
+              <div class="card">
+                <div class="card-content">
+                  <div class="emoji">🏢</div>
+                  <h3>Shaxsiy Ofis A'zoligi</h3>
+                  <p>Maxsus ofis va 24/7 foydalanish imkoniyati.</p>
+                  <div class="price">Narx: $500/oy</div>
+                  <a href="#" class="details-btn">Batafsil</a>
+                </div>
               </div>
-            </div>
-            <div class="button">
-              <button class="btn">Batafsil</button>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    <section class="block6">
-    
-    </section>
-    <section id="fikrlar" class="clients">
-      <div class="clients-title"><h2>Biz Haqimizda Fikrlar</h2></div>
-      <div class="clients-list">
-        <div class="client">
-            <img src="images/Avatar Image.png" alt="user 1" />
-            <p>
-              Men yaqinda "WorkHub Central" kovorking bilan do'st bo'ldim, va bu hamkorlikdan xursandman. Hammasi menga mos keldi. Atmosfera qulay faqat ishlaydigan kayfiyatdaman.
-            </p>
-            <h5>Ahror Nosirov</h5>
-            <p>Software Engineer, TechStartup Innovations</p>
-          </div>
-          <div class="client">
-            <img src="images/Avatar Image (1).png" alt="user 2" />
-            <p>              
-            "My Space" juda qulay joyda joylashibti. Unda qulay ish uchun kerak bo'lgan hamma narsa mavjud. Menga dam olish maskani qanday tashkil etilgani yoqdi.
-            </p>
-            <h5>Jahongir Abduqodirov</h5>
-            <p>Creative Director, DesignCraft Studio</p>
-          </div>
-          <div class="client">
-            <img src="images/Avatar Image (2).png" alt="user 3" />
-            <p>
-              My Space Coworking-da juda yoqimli muhit va shu bilan birga ish muhiti mavjud. Bu odamlar tajribali ravishda hayotga tatbiq etgan ajoyib g'oya. Men hamkasblarim va tanishlarimga har doim “My Space Coworking”ni tavsiya qilaman.
-            </p>
-            <h5>Ilya Nagin</h5>
-            <p>Graphic Designer, DesignCo</p>
-          </div>
-          <div class="client">
-            <img src="images/Avatar Image (3).png" alt="user 4" />
-            <p>
-              Aytmoqchimanki, “My Space” kovorking maydonida ish joyini ijaraga olish biznikiga o‘xshagan kichik kompaniya uchun ideal variantdir. Sizga kerak bo'lgan hamma narsa bu erda. Ish joyi ham, dam olish maskani ham mukammal tashkil etilgan. Rahmat My Space Coworking!
-            </p>
-            <h5>Aziz Yaqupov</h5>
-            <p>Project Manager, SoftwareSolutions LLC</p>
-          </div>
-          <div class="client">
-            <img src="images/Avatar Image (4).png" alt="user 5" />
-            <p>
-              Moslashuvchan aʼzolik imkoniyatlari va yuqori tezlikdagi internet, printerlar va yigʻilish xonalari kabi qulayliklar ushbu kovorking maydonini mening kichik biznesim uchun juda moslashtirdi.
-            </p>
-            <h5>Alex Nguyen</h5>
-            <p>Marketing Consultant, Maverick Marketing</p>
-          </div>
-      </div>
-    </section>
-    <section id="boglanish">
-      <div class="block2-afzallik1">
-        <h1 class="fontS1" style="margin-top: 125px;">Biz Bilan Bog'lanish Uchun </h1><br>
-      </div>
-      <div class="block5">
-        <div class="contact">
-          <div class="contact-matn">
-            <h1 style="font-size: 30px;">Biz bilan bog'laning</h1><br><br>
-            <h3>Тel: +998 88 160 44 60</h3>
-            <h3 style="margin-top: 10px;">Elektron manzil: sanjarbaxrombekov3@gmail.com</h3>
-            <br><br>
-            <h3>Manzil: O'zbekiston, Olmazor t, General Gofurov 18</h3>
-          </div>
-          <div class="contact-xarita">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d11991.762875234575!2d69.2606992050677!3d41.2883946354095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2s!4v1736926034016!5m2!1sru!2s"
-               style="border:0; border-radius: 7px;" allowfullscreen="" loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade" class="xarita"></iframe>
-          </div>
+      </section>
+
+      <!-- Bog'lanish bo'limi -->
+      <section class="contact-section" id="contact">
+        <div class="container2">
+          <h2 class="section-title">Bog'lanish</h2>
+          <form class="contact-form">
+            <div class="form-group">
+              <label for="name">Ismingiz</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Ismingizni kiriting"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="email">Elektron pochta</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Pochta manzilingizni kiriting"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="message">Xabar</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="4"
+                placeholder="Xabaringizni kiriting"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Yuborish</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer bo'limi -->
+    <footer class="footer" id="footer">
+      <div class="container2">
+        <div class="footer-content">
+          <p>&copy; 2025 WorkHub Central. Barcha huquqlar himoyalangan.</p>
+          <ul class="footer-links">
+            <li><a href="#">Maxfiylik siyosati</a></li>
+            <li><a href="#">Foydalanish shartlari</a></li>
+            <li><a href="#">Biz bilan bog'laning</a></li>
+          </ul>
         </div>
       </div>
-    </section>
-  </div>
-  <div class="footer">
-    <h1>Workhub Central Coworking</h1>
-    <p>
-      Workhub Central - mutaxassislar va startaplar hamkorlik qiladigan, aloqalar o‘rnatadigan va rivojlanadigan zamonaviy kovorking maydonidir. Sizning muvaffaqiyatingiz uchun yaratilgan samarali va ilhomlantiradigan ish muhitini his etish uchun bizga qo‘shiling.
-    </p>
-    <div class="social-icons">
-      <a href="#"><img class="footer-img" src="images/Link → youtube.png.png" alt="youtube"></a>
-      <a href="#"><img class="footer-img" src="images/Link → facebook.png.png" alt="facebook"></a>
-      <a href="#"><img class="footer-img" src="images/Link → twitter.png.png" alt="twitter"></a>
-      <a href="#"><img class="footer-img" src="images/Link → linkedin.png.png" alt="linkedin"></a>
-      <a href="#"><img class="footer-img" src="images/Link → social.png.png" alt="social"></a>
-    </div>
-  </div>
-</body>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
 </html>
